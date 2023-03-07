@@ -1,0 +1,12 @@
+
+
+do
+a=`expr $a + 1`
+
+
+do
+a=`expr $a + 1`
+2:
+4:
+6: do
+8: a=`expr $a + 1`

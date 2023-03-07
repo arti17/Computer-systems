@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="hu">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+    crossorigin="anonymous">
+
+    <style type="text/css">
+        #myBtn {
+            display: none;
+            position: fixed;
+            bottom: 20px;
+            right: 30px;
+            z-index: 99;
+            border: none;
+            outline: none;
+            background-color: black;
+            color: white;
+            cursor: pointer;
+            padding: 15px;
+            border-radius: 10px;
+            font-size: 18px;
+        }
+        
+        #myBtn:hover {
+            background-color: #555;
+        }
+        table {
+            background-image: url('https://cdn.icon-icons.com/icons2/792/PNG/512/APPLE_icon-icons.com_65545.png');
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    </style>
+    
+    <title>macOS (Kedvenc o)</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"> <img src="https://cdn.icon-icons.com/icons2/792/PNG/512/APPLE_icon-icons.com_65545.png"
+                alt="" width="26" height="26" class="d-inline-block align-text-top">macOS (Kedvenc operációs rendszerem)</a>
+        </div>
+    </nav>
+    <div class="container mt-2">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb mt-2 alert alert-secondary">
+                <li class="">Tartalomjegyzék:&nbsp;</li>
+                <li class="breadcrumb-item"><a href="#part1">Történet</a></li>
+                <li class="breadcrumb-item"><a href="#part2">Verziók</a></li>
+                <li class="breadcrumb-item"><a href="#part3">A macOS jellemzői</a></li>
+            </ol>
+        </nav>
+        <div class="card float-end mb-3" style="width: 20rem;"> <img src="https://yablyk.com/wp-content/uploads/2020/11/macos-version.jpg"
+            class="card-img-top" alt="macos">
+            <div class="card-body">
+                <h5 class="card-title">MacOS</h5>
+                <p class="card-text"></p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Fejlesztő: Apple</li>
+                <li class="list-group-item">Forráskód: zárt</li>
+                <li class="list-group-item">OS-család: BSD</li>
+                <li class="list-group-item">Programozási nyelv: C++ Objective-C Swift C</li>
+                <li class="list-group-item"><a href="https://www.apple.com/hu/macos/" target="_blank" class="card-link text-decoration-none">Weboldal</a></li>
+            </ul>
+            
+        </div>
+        <p>Az operációs rendszer olyasvalami, ami nélkül az emberek és a modern technológia nem tudnak együttműködni. Tudta, hogy több mint 200 különböző operációs rendszer létezik a világon? Ezek közül a Mac a második legnépszerűbb operációs rendszer a világon. Csaknem 7 százalékkal uralja a piacot. Ez azt jelenti, hogy minden tizenötödik számítógépen telepítve van.</p>
+        <h3 id="part1">Történet</h3>
+        <hr>
+        <p>A Mac operációs rendszert, más néven Macintosh operációs rendszert az Apple hozta létre 1984-ben. Ez volt az első olyan operációs rendszer, amely lehetővé tette a felhasználók számára, hogy számítógépüket egérrel irányítsák, és ablakos felületet használjanak.</p>
+        <h3 id="part2">Verziók</h3>
+        <hr>
+        <p>Nehéz elhinni, de a macOS operációs rendszercsalád már több mint 35 éves. Először a Macintoshsal egy időben, 1984-ben mutatták be System 1 néven, és azóta számos átnevezésen ment keresztül, de ennek ellenére ma is folyamatosan fejlődik.</p>
+        <table class="table table-bordered">
+            <thead>
+                <tr class="text-center align-middle">
+                    <th scope="col">macOS verzió</th>
+                    <th scope="col">Verzió kódneve</th>
+                    <th scope="col">Megjelenés dátuma</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">Apple Rhapsody</th>
+                    <td>Rhapsody</td>
+                    <td>1997. augusztus 31.</td>
+                </tr>
+                <tr>
+                    <th scope="row">Mac OS X Public Beta</th>
+                    <td>Kodiak</td>
+                    <td>2000. szeptember 13.</td>
+                </tr>
+                <tr>
+                    <th scope="row">Mac OS X 10.0</th>
+                    <td>Cheetah</td>
+                    <td>2001. március 24.</td>
+                </tr>
+                <tr>
+                    <th scope="row">Mac OS X 10.2</th>
+                    <td>Jaguar</td>
+                    <td>2002. augusztus 24.</td>
+                </tr>
+                <tr>
+                    <td>...</td>
+                    <td>...</td>
+                    <td>...</td>
+                </tr>
+                <tr>
+                    <th scope="row">OS X 10.11</th>
+                    <td>El Capitan</td>
+                    <td>2015. szeptember 30.</td>
+                </tr>
+                <tr>
+                    <th scope="row">macOS 10.12</th>
+                    <td>Sierra.</td>
+                    <td>2016. szeptember 20.</td>
+                </tr>
+                <tr>
+                    <th scope="row">macOS 10.13</th>
+                    <td>High Sierra</td>
+                    <td>2017. szeptember 25.</td>
+                </tr>
+                <tr>
+                    <th scope="row">macOS 10.14</th>
+                    <td>Mojave</td>
+                    <td>2018. szeptember 24.</td>
+                </tr>
+                <tr>
+                    <th scope="row">macOS 10.15</th>
+                    <td>Catalina</td>
+                    <td>2019. október 7.</td>
+                </tr>
+                <tr>
+                    <th scope="row">macOS 11</th>
+                    <td>Big Sur</td>
+                    <td>2020. november 12.</td>
+                </tr>
+                <tr>
+                    <th scope="row">macOS 12</th>
+                    <td>Monterey</td>
+                    <td>2021. június 7. - Első fejlesztői béta</td>
+                </tr>
+            </tbody>
+        </table>
+        <h3 id="part3">A macOS főbb jellemzői</h3>
+        <hr>
+        <ul>
+            <li>Képes olyan műveletek elvégzésére, amelyekre más operációs rendszerek nem képesek. Az a tény, hogy ezt az operációs rendszert kifejezetten az Apple hardveréhez tervezték.</li>
+            <li>Számos hasznos alkalmazás van előre telepítve.</li>
+            <li>Az ICloud integrálva van. Lehetővé teszi a felhasználók számára, hogy hozzáférjenek bármely, egy másik Apple-eszközön tárolt fájlhoz.</li>
+            <li>Magas szintű védelem a bizalmas adatok számára.</li>
+        </ul>
+        
+    </div>
+    <footer class="navbar navbar-dark bg-dark">
+        <div class="container">
+          <p class="navbar-text">© 2022 Eötvös Loránd Tudományegyetem</p>
+          <p class="navbar-text">Minden jog fenntartva.</p>
+          <p class="navbar-text">1053 Budapest, Egyetem tér 1–3.</p>
+          <p class="navbar-text">Központi telefonszám: +36 1 411 6500</p>
+        </div>
+    </footer>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+    <script type="text/javascript">
+        window.onscroll = function() {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop >
+                20) {
+                document.getElementById("myBtn").style.display = "block";
+            } else {
+                document.getElementById("myBtn").style.display = "none";
+            }
+        }
+        function topFunction() {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        }
+    </script>
+</body>
+
+</html>

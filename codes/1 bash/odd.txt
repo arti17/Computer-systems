@@ -1,0 +1,15 @@
+#!/bin/sh
+a=$1
+while [ `expr $a % 17` -ne 0 ]
+echo $a
+done
+#!/bin/sh
+a=$1
+while [ `expr $a % 17` -ne 0 ]
+echo $a
+done
+1: #!/bin/sh
+3: a=$1
+5: while [ `expr $a % 17` -ne 0 ]
+7: echo $a
+9: done
